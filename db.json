@@ -1,0 +1,28 @@
+[
+    {"id":1,"pname":"headphone","price":4000,"category":"headphone","color":"green","imagedata":"product/pic1.jpg"},
+    {"id":2,"pname":"mobile","price":40000,"category":"mobile","color":"blue","imagedata":"product/pic2.jpg"},
+    {"id":3,"pname":"smart watch","price":5000,"category":"watch","color":"red","imagedata":"product/pic3.jpg"},
+    {"id":4,"pname":"Bomber jacket patches","price":7999,"category":"jacket","color":"skyblue","imagedata":"product/BOMBER-JACKET-WITH-RANDY’S-DONUTS™-PATCHES.jpg"},
+    {"id":5,"pname":"shirt","price":800,"category":"shirt","color":"orange","imagedata":"product/pic7.jpg"},
+    {"id":6,"pname":"iphone 14 pro max","price":80000,"category":"mobile","color":"white","imagedata":"product/iPhone-14-Pro.jpg"},
+    {"id":7,"pname":"iphone 14","price":70000,"category":"mobile","color":"grey","imagedata":"product/OIP.jpg"},
+    {"id":8,"pname":"iphone 11","price":65000,"category":"mobile","color":"yellow","imagedata":"product/iphone-11.jpg"},
+    {"id":9,"pname":"iphone 13","price":71000,"category":"mobile","color":"white","imagedata":"product/iphone-13.jpg"},
+    {"id":10,"pname":"OnePlus 11 5G","price":40000,"category":"mobile","color":"black","imagedata":"product/OnePlus-11-5G.jpg"},
+    {"id":11,"pname":"oneplus nord ce2","price":45000,"category":"mobile","color":"black","imagedata":"product/oneplus-nord-ce2.png"},
+    {"id":12,"pname":"macbook air m1","price":90000,"category":"laptop","color":"silver","imagedata":"product/macbook-air-m1.jpg"},
+    {"id":13,"pname":"lenovo ideapad","price":46000,"category":"laptop","color":"grey","imagedata":"product/lenovo-ideapad-slim-3.jpg"},
+    {"id":14,"pname":"hp-15s","price":55000,"category":"laptop","color":"silver","imagedata":"product/hp-15s.jpg"},
+    {"id":15,"pname":"apple watch series 7","price":50000,"category":"watch","color":"blue","imagedata":"product/apple-watch-series-7.jpg"},
+    {"id":16,"pname":"apple-watch-series-8","price":60000,"category":"watch","color":"black","imagedata":"product/apple-watch-series-8.png"},
+    {"id":17,"pname":"Apple Watch UltraGPS","price":80000,"category":"watch","color":"orange","imagedata":"product/Apple-Watch-Ultra-GPS.jpg"},
+    {"id":18,"pname":"h&m black shirt","price":1999,"category":"shirt","color":"blalck","imagedata":"product/h&m-black-shirt.jpg"},
+    {"id":19,"pname":"h&m blue shirt","price":2199,"category":"shirt","color":"blue","imagedata":"product/h&m-blue-shirt.jpg"},
+    {"id":20,"pname":"h&m white shirt","price":1800,"category":"shirt","color":"white","imagedata":"product/h&m-white-shirt.jpg"},
+    {"id":21,"pname":"Bomber jacket","price":7000,"category":"jacket","color":"brown","imagedata":"product/BOMBER-JACKET-WITH-PATCHES.jpg"},
+    {"id":22,"pname":"Bomber jacket contrast","price":5990,"category":"jacket","color":"blue","imagedata":"product/BOMBER-JACKET-WITH-CONTRAST-PATCHES.jpg"}
+
+
+ 
+
+]

@@ -1,0 +1,314 @@
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+</head>
+<body>
+    <div class="mainbody container-fluid row">
+        <div class="header">
+           <img src="logo.jpg" class="ms-5 img-fluid">
+           <p>myShop.com <a class="link-opacity-50-hover text-white pe-2 fs-6 ms-5" href="#" data-bs-toggle="modal" data-bs-target="#signup">Become a Seller</a>
+            <a class="link-opacity-50-hover text-white pe-2 fs-6" href="#"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> Cart</a>
+            <a class="link-opacity-50-hover text-white pe-2 fs-6" href="#" data-bs-toggle="modal" data-bs-target="#account"> Account <i class="fa-solid fa-user" style="color: #ffffff;"></i></a></p>
+           
+        
+        </div>
+    
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold ms-3 me-5" href="#">MyShop</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active ps-3 pe-3" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ps-3 pe-3" aria-current="page" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ps-3 pe-3" aria-current="page" href="contact.html">contactUs</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-3 pe-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-bell" style="color: #005eff;"></i> Notification Preferences</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-handshake-angle" style="color: #005eff;"></i> 24x7 Customer Care</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-trend-up" style="color: #005eff;"></i> Advertise</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-down-to-line" style="color: #005eff;"></i> Download App</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 border-secondary opacity-50" type="search" placeholder="Search for products, brands and more" aria-label="Search">
+                  <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./Product/slider1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Product/slider2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Product/slider3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Product/slider4.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+          <div class="modal" id="account" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">log in first.</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label opacity-50">Enter Email/Mobile Number:</label>
+                      <input type="text" class="form-control opacity-25" placeholder="enter User ID">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label opacity-50">Password:</label>
+                      <input type="text" class="form-control opacity-25" placeholder="enter Password" >
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <a href="#">Create an account</a>
+                  <button type="button" class="btn btn-primary">LogIn</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="modal" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">sign up form</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label opacity-50">First Name:</label>
+                      <input type="text" class="form-control opacity-25" placeholder="enter first name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label opacity-50">Middle Name:</label>
+                      <input type="text" class="form-control opacity-25" placeholder="enter middle name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label opacity-50">Last Name:</label>
+                      <input type="text" class="form-control opacity-25" placeholder="enter last name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label opacity-50">Mo.Number:</label>
+                      <input type="number" class="form-control opacity-25" placeholder="enter mo. number">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label opacity-50">Password:</label>
+                      <input type="text" class="form-control opacity-25" placeholder="enter Password" >
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <a href="#">Create an account</a>
+                  <button type="button" class="btn btn-primary">SignUp</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+     <div class="center container-fluid row">
+        <div class="left col-sm-12 col-md-6 col-lg-4 col-xl-3">
+
+          <div class="list-group mt-2 text-center">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              Category
+            </a>
+            <a href="#" class="list-group-item list-group-item-action" onclick="filterItem('mobile')">Mobile</a>
+            <a href="#" class="list-group-item list-group-item-action" onclick="filterItem('laptop')">Laptop</a>
+            <a href="#" class="list-group-item list-group-item-action" onclick="filterItem('watch')">watch</a>
+            <a href="#" class="list-group-item list-group-item-action" onclick="filterItem('shirt')">Shirt</a>
+            <a href="#" class="list-group-item list-group-item-action" onclick="filterItem('jacket')">Jacket</a>
+
+          </div>
+ 
+            
+        </div>
+        <div class="right col-sm-12 col-md-6 col-lg-8 col-xl-9">
+          <div id="root" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 mt-2">
+        </div>
+     </div>
+    </div>
+
+     <div class="footer container-fluid row row-cols-1 row-cols-xl-6">
+      <div class="a col-2">
+        <p class="text-secondary pt-3 mt-2">ABOUT</p>
+        <a class="footerlink" href="#">Contact Us</a>
+        <br/>
+        <a class="footerlink" href="#">About Us</a>
+        <br/>
+        <a class="footerlink" href="#">careers</a>
+        <br/>
+        <a class="footerlink" href="#">MyShop Stories</a>
+        <br/>
+        <a class="footerlink" href="#">Press</a>
+        <br/>
+        <a class="footerlink" href="#">MyShop Wholesale</a>
+        <br/>
+        <a class="footerlink" href="#">Corporate Information</a>
+      </div>
+      <div class="a col-2">
+        <p class="text-secondary pt-3 mt-2">HELP</p>
+    
+        <a class="footerlink" href="#">Payment</a>
+        <br/>
+        <a class="footerlink" href="#">Shipping</a>
+        <br/>
+        <a class="footerlink" href="#">Cancellation & Return</a>
+        <br/>
+        <a class="footerlink" href="#">FAQ</a>
+        <br/>
+        <a class="footerlink" href="#">Report Infringement</a>
+        <br/>
+      </div>
+      <div class="a col-2">
+        <p class="text-secondary pt-3 mt-2">CONSUMER POLICY</p>
+        <a class="footerlink" href="#">Return Policy</a>
+        <br/>
+        <a class="footerlink" href="#">Terms Of Use</a>
+        <br/>
+        <a class="footerlink" href="#">Security</a>
+        <br/>
+        <a class="footerlink" href="#">Privacy</a>
+        <br/>
+        <a class="footerlink" href="#">Sitemap</a>
+        <br/>
+        <a class="footerlink" href="#">Grievance Redressal</a>
+        <br/>
+        <a class="footerlink" href="#">EPR Compliance</a>
+        <br/>
+      </div>
+      <div class="a col-2">
+        <p class="text-secondary pt-3 mt-2">SOCIAL</p>
+        <a class="footerlink" href="#">Facebook</a>
+        <br/>
+        <a class="footerlink" href="#">Twitter</a>
+        <br/>
+        <a class="footerlink" href="#">YouTube</a>
+        <br/>
+      </div>
+      <div class="a col-2">
+        <p class="text-secondary pt-3 mt-2">Mail Us</p>
+        <p class="text-white">Flipkart Internet Private Limited,<br/>
+
+          Buildings Alyssa, Begonia &<br/>
+          
+          Clove Embassy Tech Village,<br/>
+          
+          Outer Ring Road, Devarabeesanahalli Village,<br/>
+          
+          Bengaluru, 560103,<br/>
+          
+          Karnataka, India</p>
+      </div>
+      <div class="a col-2">
+        <p class="text-secondary pt-3 mt-2">Registered Office Address:</p>
+        <p class="text-white">Flipkart Internet Private Limited,
+
+          Buildings Alyssa, Begonia &<br/>
+          
+          Clove Embassy Tech Village,<br/>
+          
+          Outer Ring Road, Devarabeesanahalli Village,<br/>
+          
+          Bengaluru, 560103,<br/>
+          
+          Karnataka, India<br/>
+          
+          CIN : U51109KA2012PTC066107<br/>
+          
+          Telephone: 044-45614700</p>
+      </div>
+     
+    
+
+     </div>
+
+     <div class="finaldivheader container-fluid row">
+      <hr class="divider">
+      <ul>
+       <a href="#" class="finalfooter"><i class="fa-sharp fa-solid fa-bag-shopping" style="color: #ffd43b;"></i> Become a Seller</a>
+      <a href="#" class="finalfooter"><i class="fa-solid fa-rectangle-ad" style="color: #ffd43b;"></i> Advertise</a>
+      <a href="#" class="finalfooter"><i class="fa-solid fa-gift" style="color: #ffd43b;"></i> Gift Cards</a>
+      <a href="#" class="finalfooter"><i class="fa-solid fa-circle-question" style="color: #ffd43b;"></i> Help Center</a>
+      <p class="footertext text-white me-5">Copyright@2023 MyShop.com  
+        <img src="./Product/001.png" class="imgpic ms-5">
+        <img src="./Product/002.png" class="imgpic">
+        <img src="./Product/003.png" class="imgpic">
+        <img src="./Product/004.png" class="imgpic">
+        <img src="./Product/005.png" class="imgpic">
+        <img src="./Product/006.png" class="imgpic">
+        <img src="./Product/007.png" class="imgpic">
+        <img src="./Product/008.png" class="imgpic">
+        <img src="./Product/009.png" class="imgpic">
+        <img src="./Product/010.png" class="imgpic">
+      </p>
+     
+
+    </ul>
+      </div>
+    
+    
+
+
+    </div>
+    <script src="result.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/jquery.js"></script>
+    
+</body>
+</html>

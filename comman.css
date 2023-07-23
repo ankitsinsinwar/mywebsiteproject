@@ -1,0 +1,12 @@
+/* about section */
+.aboutcenter{height: auto; width: 100%;  background: rgb(255, 255, 255); padding: 20px;}
+.aboutcenter img{height: 300px; width: 320px; float: left; padding: 10px;}
+
+/* contact section */
+.contactcenter{height: 500px; width: 100%;}
+.contactcenter .left{height: 500px; width: 30%; float: left; padding: 50px;}
+.contactcenter .right{height: 500px; width: 70%; float: right;}
+.right [type='text'],[type='email']{height: 30px; width: 90%; margin: 3px 5%;}
+.right textarea{height: 300px; width: 90%; margin: 3px 5%;}
+.right button{margin: 3px 5%;}
+
