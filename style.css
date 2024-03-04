@@ -29,7 +29,7 @@
 .footerlink{text-decoration: none; color: white; font-size: 12px;}
 .footerlink:hover{text-decoration: underline;}
 
-.footer p{font-size: 12px;}
+.footer p{font-size: 12px; display: flex; flex-wrap: wrap;}
 .divider{color: whitesmoke;}
 
 .finaldivheader{background: #172539; height: 70px;}
